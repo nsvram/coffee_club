@@ -1,41 +1,41 @@
 shop_address,lat,lng,id,name,place_id,rating,walking_duration,walking_distance
 "1a/118 Devonshire St, Surry Hills NSW 2010, Australia",-33.8866804,151.20919,55b26f3c2cb1abef73f0e821ece16a7c685aec40,Sample Coffee,ChIJHUVSMyCuEmsRcOVnCCEwodc,4.6,2 mins,0.1 km
-"9-13 Hay St, Haymarket NSW 2000, Australia",-33.8796687,151.2030876,2dd419e74ffc232461e3c63b9444a2e36e6671c3,The Coffee Club Café - Market City,ChIJBxtMiSSuEmsRplZFqMBvB60,3.8,13 mins,1.1 km
-"Eddy Ave, Haymarket NSW 2000, Australia",-33.8824415,151.206773,fd171122df0a146a1ad9e4ed591c9c2f9d5b21fe,Espresso Station Pie & Coffee Shop,ChIJU5j6tSOuEmsR-CRPtYY3Bd8,3.4,6 mins,0.5 km
-"2 1 Queen Victoria Building, 455 George St, Sydney NSW 2000, Australia",-33.871796,151.206739,726437a1ec2a3739c2d90f570b4c43adf7620c6d,Old Vienna Coffee House,ChIJfRgC-z6uEmsRU3cezPkNJ8M,2.3,23 mins,1.8 km
-"60-64 Reservoir St, Surry Hills NSW 2010, Australia",-33.881139,151.209654,b081ee27316569a249d112194d442242c5c74060,Single O Surry Hills,ChIJNUOUhSKuEmsRj2F2Arcx_OQ,4.5,8 mins,0.7 km
 "10.09-10.10/680 George St, Sydney NSW 2000, Australia",-33.8770697,151.2062445,f7ca6b51f5bb137c7020fc840aeb06f69da2329e,Kingswood Coffee,ChIJmwPYyTyuEmsR2FrdAUkyWrw,4.6,16 mins,1.3 km
-"32 Kings Ln, Darlinghurst NSW 2010, Australia",-33.8778117,151.2168316,afcb3ae0b5021b2ff02f3adf8c1e67024f92e1e1,Salvador Coffee,ChIJsyWauUOuEmsRCYY-IxJlaFw,4.8,19 mins,1.4 km
-"37 Oxford St, Darlinghurst NSW 2010, Australia",-33.877904,151.213275,fb87a5309e741e817cf1f1ad7263ed12cff20060,Gloria Jean's Coffees,ChIJVfkqAReuEmsRE25wbqjdxLw,3.1,16 mins,1.2 km
-"55 George St, Redfern NSW 2016, Australia",-33.891145,151.20269,1339e0089b06c8c108542e243707f64e3fd0bc18,Refn Courtyard Cafe,ChIJieE9FNmxEmsRjqIjydF879A,4.6,16 mins,1.3 km
+"Eddy Ave, Haymarket NSW 2000, Australia",-33.8824415,151.206773,fd171122df0a146a1ad9e4ed591c9c2f9d5b21fe,Espresso Station Pie & Coffee Shop,ChIJU5j6tSOuEmsR-CRPtYY3Bd8,3.4,6 mins,0.5 km
+"80 Commonwealth St, Surry Hills NSW 2010, Australia",-33.879376,151.211137,1e3575bfe48678e8769d87de459304bdf8da3925,Paramount Coffee Project,ChIJHRwF-BeuEmsRRwfUQVNfsdU,4.2,12 mins,1.0 km
+"9-13 Hay St, Haymarket NSW 2000, Australia",-33.8796687,151.2030876,2dd419e74ffc232461e3c63b9444a2e36e6671c3,The Coffee Club Café - Market City,ChIJBxtMiSSuEmsRplZFqMBvB60,3.8,13 mins,1.1 km
+"2 1 Queen Victoria Building, 455 George St, Sydney NSW 2000, Australia",-33.871796,151.206739,726437a1ec2a3739c2d90f570b4c43adf7620c6d,Old Vienna Coffee House,ChIJfRgC-z6uEmsRU3cezPkNJ8M,2.4,23 mins,1.8 km
+"60-64 Reservoir St, Surry Hills NSW 2010, Australia",-33.881139,151.209654,b081ee27316569a249d112194d442242c5c74060,Single O Surry Hills,ChIJNUOUhSKuEmsRj2F2Arcx_OQ,4.5,8 mins,0.7 km
+"37 Oxford St, Darlinghurst NSW 2010, Australia",-33.877904,151.213275,fb87a5309e741e817cf1f1ad7263ed12cff20060,Gloria Jean's Coffees,ChIJVfkqAReuEmsRE25wbqjdxLw,3.2,16 mins,1.2 km
+"65/63 Mountain St, Ultimo NSW 2007, Australia",-33.8840823,151.1962738,cc707c42d9bc3eec59dc91d129707d2fee1eb0f1,Nectar Coffee,ChIJkaxXRSiuEmsRydw8KQVlsTM,4.3,21 mins,1.6 km
 "2.05/9 Hay St, Haymarket NSW 2000, Australia",-33.8799521,151.2034355,11fefda8f7e17a4e89e3dbb50edec40539d49ab3,Gloria Jean's Coffees,ChIJO4a87TyuEmsRR8OIiFHWhE0,2.7,12 mins,1.0 km
+"32 Kings Ln, Darlinghurst NSW 2010, Australia",-33.8778117,151.2168316,afcb3ae0b5021b2ff02f3adf8c1e67024f92e1e1,Salvador Coffee,ChIJsyWauUOuEmsRCYY-IxJlaFw,4.8,19 mins,1.4 km
+"55 George St, Redfern NSW 2016, Australia",-33.891145,151.20269,1339e0089b06c8c108542e243707f64e3fd0bc18,Refn Courtyard Cafe,ChIJieE9FNmxEmsRjqIjydF879A,4.6,16 mins,1.3 km
+"The Strand Arcade, 11/412-414 George St, Sydney NSW 2000, Australia",-33.8694649,151.2074384,7e336893e71a4bbaf13b8f8c44f6fd8b15f10996,Gumption by Coffee Alchemy,ChIJDycznj-uEmsRCrYS0ALQByk,4.2,26 mins,2.1 km
 "32-36 City Rd, Chippendale NSW 2008, Australia",-33.8858584,151.1944136,4d72e19e5c44a66944ed601fdc21080692e44cf3,Toby's Estate Coffee Roasters,ChIJR-S-I9axEmsRGjjcmNfvx6k,4.4,24 mins,1.9 km
+"67 King St, Sydney NSW 2000, Australia",-33.868785,151.205874,1876a143804d47c83552dd004a726070595efa65,Mecca,ChIJy3zfaT-uEmsRC60GA3rJuGg,4.5,28 mins,2.3 km
+"2/525 George St, Sydney NSW 2000, Australia",-33.87543,151.2061672,3fd3c4f24850b6e1996a06864bfdfb426cd5a5a3,Starbucks,ChIJcawkWTyuEmsRG56o5LAc0LQ,3.8,18 mins,1.4 km
 "66/68 Oxford St, Darlinghurst NSW 2010, Australia",-33.8787777,151.2149148,c214e0c0d698da94b71d567bff00506a5c390436,Greenhouse Coffee,ChIJo4tvPheuEmsRbP30eZGTrfg,4.9,15 mins,1.1 km
 "193 Missenden Rd, Newtown NSW 2042, Australia",-33.8930365,151.1831525,e30ce7d15eb81053fab4d186bb62472c705595ce,Campos Coffee Newtown,ChIJ9QILdzKwEmsRIjQVzqIASrc,4.6,42 mins,3.2 km
-"65/63 Mountain St, Ultimo NSW 2007, Australia",-33.8840823,151.1962738,cc707c42d9bc3eec59dc91d129707d2fee1eb0f1,Nectar Coffee,ChIJkaxXRSiuEmsRydw8KQVlsTM,4.3,21 mins,1.6 km
-"1.03/75 Mary St, St Peters NSW 2044, Australia",-33.913281,151.1728198,ae7a76fded27fcf764171f66d64894c80b5e01e8,Sample Coffee Pro Shop,ChIJE7kpAFuwEmsRqc4Eidq0bR0,4.7,1 hour 10 mins,5.6 km
-"2/525 George St, Sydney NSW 2000, Australia",-33.87543,151.2061672,3fd3c4f24850b6e1996a06864bfdfb426cd5a5a3,Starbucks,ChIJcawkWTyuEmsRG56o5LAc0LQ,3.8,18 mins,1.4 km
-"50 Holt St, Surry Hills NSW 2010, Australia",-33.8862903,151.2093846,8ff87924a7f2b57e76fc443b9f40065e09f10a0e,Di Bella Coffee Roasting Warehouse,ChIJRd2AzyGuEmsRP8_FjBQfbts,3.9,1 min,0.1 km
-"304 Elizabeth St, Surry Hills NSW 2010, Australia",-33.8836666,151.2079336,320d846af26a5249b37279f1b746501d9b6c1341,The Best Coffee,ChIJaUJOKCKuEmsR2V5Ne5wm8H0,4.5,5 mins,0.4 km
-"97/99 Bathurst St, Sydney NSW 2000, Australia",-33.8744757,151.205788,6e520458c8a061ac5102a27f5df0cb056bcc28b8,Tom N Toms Coffee,ChIJmTTYQTyuEmsR_w80IDl7Gmg,3.5,21 mins,1.7 km
+"Queen Victoria Building, 69/455 George St, Sydney NSW 2000, Australia",-33.8723764,151.2066203,ad11c6225b91cf605cf2c7972d5e7a120564dfc5,Starbucks,ChIJH4-m9D6uEmsRy7hgF2btwT0,3.7,23 mins,1.8 km
+"304 Elizabeth St, Surry Hills NSW 2010, Australia",-33.8836666,151.2079336,320d846af26a5249b37279f1b746501d9b6c1341,The Best Coffee,ChIJaUJOKCKuEmsR2V5Ne5wm8H0,4.7,5 mins,0.4 km
+"21/1 Bay St, Glebe NSW 2037, Australia",-33.8836394,151.1947166,6f0e97f75b18970c5675cfb768543f5b4dbfb401,Three Beans Coffee Vanilla Mung,ChIJ2e3vvCmuEmsRVoH1eYdgwsQ,3.5,23 mins,1.8 km
+"97/99 Bathurst St, Sydney NSW 2000, Australia",-33.8744757,151.205788,6e520458c8a061ac5102a27f5df0cb056bcc28b8,Tom N Toms Coffee,ChIJmTTYQTyuEmsR_w80IDl7Gmg,3.4,21 mins,1.7 km
 "44 Reservoir St, Sydney NSW 2010, Australia",-33.8811382,151.2092243,afbdedec0c427468fadea183c920d1d38128b96a,The Sandwich Shop,ChIJ6VtqiyKuEmsRGHz3oLrE-jg,4.2,7 mins,0.6 km
-"80 Commonwealth St, Surry Hills NSW 2010, Australia",-33.879376,151.211137,1e3575bfe48678e8769d87de459304bdf8da3925,Paramount Coffee Project,ChIJHRwF-BeuEmsRRwfUQVNfsdU,4.3,12 mins,1.0 km
-"21/1 Bay St, Glebe NSW 2037, Australia",-33.8836394,151.1947166,6f0e97f75b18970c5675cfb768543f5b4dbfb401,Three Beans Coffee Vanilla Mung,ChIJ2e3vvCmuEmsRVoH1eYdgwsQ,3.4,23 mins,1.8 km
-"Queen Victoria Building, 69/455 George St, Sydney NSW 2000, Australia",-33.8723764,151.2066203,ad11c6225b91cf605cf2c7972d5e7a120564dfc5,Starbucks,ChIJH4-m9D6uEmsRy7hgF2btwT0,3.6,23 mins,1.8 km
 "Capitol Square, G01/730-742 George St, Haymarket NSW 2000, Australia",-33.8792412,151.2056795,52380be56958b8712db597100b2f16d7b8a79175,Starbucks,ChIJfbX2aiOuEmsRS3rtwHGqAaI,3.8,13 mins,1.1 km
-"76 Devonshire St, Surry Hills NSW 2010, Australia",-33.8859892,151.207715,d9f65f951b8f317e05f46eb1bcc880728e11bd8c,Devon Cafe,ChIJXbrrriGuEmsRuXUCNu7cfGI,3.9,4 mins,0.3 km
+"1.03/75 Mary St, St Peters NSW 2044, Australia",-33.913281,151.1728198,ae7a76fded27fcf764171f66d64894c80b5e01e8,Sample Coffee Pro Shop,ChIJE7kpAFuwEmsRqc4Eidq0bR0,4.7,1 hour 10 mins,5.6 km
+"124 McEvoy St, Alexandria NSW 2015, Australia",-33.9031765,151.1955167,626eefdccbddf87898a2a802b9a84811738490b7,Sub-station cafe,ChIJz5_v-sixEmsRAkaRHzg1S-U,4.5,35 mins,2.9 km
+"50 Holt St, Surry Hills NSW 2010, Australia",-33.8862903,151.2093846,8ff87924a7f2b57e76fc443b9f40065e09f10a0e,Di Bella Coffee Roasting Warehouse,ChIJRd2AzyGuEmsRP8_FjBQfbts,3.9,1 min,0.1 km
+"Bent Street, Moore Park NSW 2021, Australia",-33.894491,151.227638,bfd0032217f5ac9e96bcc624aca6494f1489209b,Gloria Jean's Coffees,ChIJUUVzvAauEmsRlf944lknRlQ,3.2,33 mins,2.5 km
 "Lobby, Tower 3, International Tower, 300 Barangaroo Ave, Sydney NSW 2000, Australia",-33.8648831,151.2020485,f7e499e1ddf8e354679611699208808a5cee3838,Campos Coffee,ChIJz_zHGkeuEmsRpWs9sIZQO_8,4.0,35 mins,2.8 km
 "597 Harris St, Ultimo NSW 2007, Australia",-33.8795044,151.199402,3c05469d1642f02386ccc19e671147672455248c,The Q on Harris,ChIJqzgYmyWuEmsRBe70OdJK5fQ,4.6,19 mins,1.5 km
-"The Strand Arcade, 11/412-414 George St, Sydney NSW 2000, Australia",-33.8694649,151.2074384,7e336893e71a4bbaf13b8f8c44f6fd8b15f10996,Gumption by Coffee Alchemy,ChIJDycznj-uEmsRCrYS0ALQByk,4.2,26 mins,2.1 km
+"76 Devonshire St, Surry Hills NSW 2010, Australia",-33.8859892,151.207715,d9f65f951b8f317e05f46eb1bcc880728e11bd8c,Devon Cafe,ChIJXbrrriGuEmsRuXUCNu7cfGI,4.0,4 mins,0.3 km
 "75 Wentworth Ave, Sydney NSW 2000, Australia",-33.8794115,151.2092992,4e7f46e3cce90414e3e53ea179f7e6d6075559a7,Basket Brothers,ChIJC0uKuSKuEmsR_SX0MTf7E8w,4.3,10 mins,0.8 km
-"Bent Street, Moore Park NSW 2021, Australia",-33.894491,151.227638,bfd0032217f5ac9e96bcc624aca6494f1489209b,Gloria Jean's Coffees,ChIJUUVzvAauEmsRlf944lknRlQ,3.2,33 mins,2.5 km
-"3/27 Park St, Sydney NSW 2000, Australia",-33.8733342,151.208639,c4b2f683fb419dd1d6eb65935bf44b6fca2b8531,The Coffee Club Café - Park Street,ChIJw0f0cj6uEmsR6ho1RpLuLwI,3.4,20 mins,1.6 km
-"7 Macquarie Pl, Sydney NSW 2000, Australia",-33.8628296,151.2099164,16566dbc167c537ee2d7ba0967194430113817a7,Juveniles Coffee,ChIJ_Td8CUKuEmsRg-28KtZWMfk,4.6,34 mins,2.8 km
-"39/110 Bourke Rd, Alexandria NSW 2015, Australia",-33.9127104,151.1938434,c3136d05df629d773a8d467d4d42f9677553018b,Di Bella Coffee,ChIJQ-780LaxEmsR_x67S8NKyAg,,46 mins,3.7 km
-"Sydney Central Plaza, 31LP George St, Sydney NSW 2000, Australia",-33.8704221,151.2074018,a1978eb27be996b47a047afaed467e93a5804061,Gloria Jean's Coffees,ChIJc-js5kCuEmsRSyyXB2U6yPM,3.3,24 mins,1.9 km
-"Shop LG06/580 George St, Sydney NSW 2000, Australia",-33.8747966,151.2071479,9aa5a839e643147886d433709eca8ad44b1a3375,two black sheep,ChIJJbF0NjyuEmsRpDmZFStMAMo,4.2,19 mins,1.5 km
+"4/175 Liverpool St, Sydney NSW 2000, Australia",-33.8771729,151.2104621,4a8ed5b84d89532f0c783c21d6547052f3e12927,The Naked Duck Hyde Park,ChIJ70ny1heuEmsRrM2IqWGYTQw,3.9,14 mins,1.1 km
+"Shop 31LP/450 George St, Sydney NSW 2000, Australia",-33.8704211,151.2074187,a1978eb27be996b47a047afaed467e93a5804061,Gloria Jean's Coffees,ChIJc-js5kCuEmsRSyyXB2U6yPM,3.3,24 mins,1.9 km
+"24 Addison Rd, Marrickville NSW 2204, Australia",-33.9038251,151.16725,0ed1a9d0ae3912e201ea0a62141638db39adaa46,Coffee Alchemy,ChIJ_YbDfEGwEmsRANEuZjL_uSI,4.6,1 hour 5 mins,5.2 km
 "500 George St, Sydney NSW 2000, Australia",-33.8725992,151.2071446,e36f1a52cb17f0c6a76e4f5b82b36cffe90cf09b,Workshop Espresso,ChIJRzzaXz6uEmsRrImlmJUqnmU,4.1,22 mins,1.8 km
+"7 Macquarie Pl, Sydney NSW 2000, Australia",-33.8628296,151.2099164,16566dbc167c537ee2d7ba0967194430113817a7,Juveniles Coffee,ChIJ_Td8CUKuEmsRg-28KtZWMfk,4.6,34 mins,2.8 km
+"Shop LG06/580 George St, Sydney NSW 2000, Australia",-33.8747966,151.2071479,9aa5a839e643147886d433709eca8ad44b1a3375,two black sheep,ChIJJbF0NjyuEmsRpDmZFStMAMo,4.2,19 mins,1.5 km
 "4 Huntley St, Alexandria NSW 2015, Australia",-33.9103278,151.1932154,e5f16d416fc6d8cd8c32cfeadc63c7902f3dcc0e,Huntley's Coffee Shop,ChIJIWYgpLaxEmsRW9A0Np5v4Kc,3.0,45 mins,3.7 km
-"Prince of Wales Private Hospital, 7 Barker Street, Prince, Randwick NSW 2031, Australia",-33.9185575,151.2391105,a5cf82e24673ba30821c0591e4dc69ffb2bbd31d,Hudsons Coffee,ChIJO_kX4COyEmsRxspb46dEhd4,3.0,1 hour 10 mins,5.4 km
 "33 Bayswater Rd, Sydney NSW 2011, Australia",-33.8753837,151.2237679,95764a3914db53eeca04f66c255919af8812112d,Uliveto Cafe,ChIJ_2WIpw2uEmsRRE1ZSFg_KXA,4.3,29 mins,2.2 km
-"40 King St, Sydney NSW 2000, Australia",-33.8686951,151.2048132,25b34cef08334bb12abbe254c9464edc57f7caee,Skittle Lane Coffee,ChIJ7StpST-uEmsRAj-sK758jE8,4.6,28 mins,2.2 km
