@@ -1,0 +1,8 @@
+corrplot="/usr/local/lib/R/site-library/corrplot"
+datasets="/usr/local/lib/R/library/datasets"
+gdata="/usr/local/lib/R/site-library/gdata"
+grDevices="/usr/local/lib/R/library/grDevices"
+graphics="/usr/local/lib/R/library/graphics"
+methods="/usr/local/lib/R/library/methods"
+stats="/usr/local/lib/R/library/stats"
+utils="/usr/local/lib/R/library/utils"

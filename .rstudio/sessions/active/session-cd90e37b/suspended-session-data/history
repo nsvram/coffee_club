@@ -1,0 +1,73 @@
+install.packages('odbc')
+install.packages('odbc')
+install.packages("RODBC")
+install.packages("RODBC")
+require(RODBC)
+install.packages("RODBC")
+library(gdata)
+install.packages('gdata')
+mydata = read.xls("data/all_together_2nd.xlsx")
+help(read.xls)
+library(gdata)
+help(read.xls)
+mydata = read.xls("data/all_together_2nd.xlsx")
+mydata = read.xls("data/all_together_2nd.xlsx",sheet=1)
+mydata = read.xls("data/all_together_2nd.xlsx",sheet="All Data")
+mydata = read.xls("data/all_together_2nd.xlsx",sheet=1)
+xlsfile <- file.path(path.package('gdata'),'xls','data/all_together_2nd.xlsx')
+iris <- read.xls(xlsfile) # defaults to csv format
+iris <- read.xls(xlsfile,method="tab") # defaults to csv format
+mydata = read.xls("data/all_together_2nd.csv",sheet=1)
+mydata = read.csv("data/all_together_2nd.csv",header = TRUE,sep=",") #    .xls("data/all_together_2nd.csv",sheet=1)
+View(mydata)
+View(mydata)
+corr(mydata)
+cor(mydata)
+mydata?
+cor(mydata)
+help(mydata)
+help(mydata)
+cor(mydata)
+d <- data.frame(x1=rnorm(10),
+x2=rnorm(10),
+x3=rnorm(10))
+M <- cor(d) # get correlations
+library('corrplot') #package corrplot
+install.packages('corrplot')
+library('corrplot') #package corrplot
+corrplot(M, method = "circle") #plot matrix
+d <- data.frame(mydata)
+M <- cor(d) # get correlations
+View(mydata)
+View(mydata)
+library(dplyr)
+install.packages('dplyr')
+mydata_cor  = select(mydata, 'Price')
+mydata_cor
+mydata_cor  = select(mydata, 1)
+mydata_cor  = select(mydata, c(1))
+mydata_cor  = select(mydata, c(1,2))
+mydata_cor  = subset(mydata, c(1,2))
+df2 <- subset(mydata, select = c(1, 2, 5))
+View(df2)
+View(df2)
+df2 <- subset(mydata, select = c(4, 5, 6,7,8,9,10))
+View(df2)
+View(df2)
+df2 <- subset(mydata, select = c( 5, 6,7,8,9,10))
+View(df2)
+View(df2)
+df2 <- subset(mydata, select = c( 5, 6,7,8,9,10,11))
+View(df2)
+View(df2)
+M <- cor(df2) # get correlations
+corrplot(M, method = "circle") #plot matrix
+sapply(mydata, mean, na.rm=TRUE)
+sapply(df2, mean, na.rm=TRUE)
+sapply(df2, sd, na.rm=TRUE)
+help(corrplot)
+corrplot(M, method = "number") #plot matrix
+help(corrplot)
+corrplot(M, method = "number", type = up) #plot matrix
+corrplot(M, method = "number", type = 'upper') #plot matrix
+help(corrplot)

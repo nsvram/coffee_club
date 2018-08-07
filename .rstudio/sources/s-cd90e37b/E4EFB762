@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533281389763.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E4EFB762",
+    "lastKnownWriteTime" : 1533625627,
+    "last_content_update" : 1533620338533,
+    "path" : "~/cofffe_club.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "26,0",
+        "scrollLine" : "19",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

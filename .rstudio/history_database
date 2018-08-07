@@ -1,0 +1,1473 @@
+1533281624359:df.temp <- read.xlsx("data/all_together_2nd.xlsx", 1)
+1533281655535:library(RODBC)
+1533281694867:install.packages("RODBC")
+1533281738352:install.packages("RODBC")
+1533281745922:library(RODBC)
+1533281748797:library(RODBC)
+1533281808674:require(RODBC)
+1533281944693:require(RODBC)
+1533281946449:install.packages("RODBC")
+1533281961941:require(RODBC)
+1533282011719:install.packages('ODBC')
+1533282025019:install.packages('odbc')
+1533282242427:install.packages("rodbc")
+1533282252930:install.packages("RODBC")
+1533282262459:install.packages('odbc')
+1533282356510:install.packages('odbc')
+1533282424547:install.packages('odbc')
+1533282639396:install.packages('odbc')
+1533282751310:install.packages("RODBC")
+1533282933098:install.packages("RODBC")
+1533282942387:require(RODBC)
+1533282945998:install.packages("RODBC")
+1533283012491:library(gdata)
+1533283021955:install.packages('gdata')
+1533283071140:mydata = read.xls("data/all_together_2nd.xlsx")
+1533283099028:help(read.xls)
+1533283107341:library(gdata)
+1533283111680:help(read.xls)
+1533283117762:mydata = read.xls("data/all_together_2nd.xlsx")
+1533283133916:mydata = read.xls("data/all_together_2nd.xlsx",sheet=1)
+1533283183717:mydata = read.xls("data/all_together_2nd.xlsx",sheet="All Data")
+1533283201343:mydata = read.xls("data/all_together_2nd.xlsx",sheet=1)
+1533283247131:xlsfile <- file.path(path.package('gdata'),'xls','data/all_together_2nd.xlsx')
+1533283270422:iris <- read.xls(xlsfile) # defaults to csv format
+1533283284246:iris <- read.xls(xlsfile,method="tab") # defaults to csv format
+1533283468227:mydata = read.xls("data/all_together_2nd.csv",sheet=1)
+1533283549267:mydata = read.csv("data/all_together_2nd.csv",header = TRUE,sep=",") #    .xls("data/all_together_2nd.csv",sheet=1)
+1533283552252:View(mydata)
+1533283552419:View(mydata)
+1533283603713:corr(mydata)
+1533283614494:cor(mydata)
+1533283627819:mydata?
+1533283627830:cor(mydata)
+1533283636981:help(mydata)
+1533283642042:help(mydata)
+1533283712419:cor(mydata)
+1533283762168:d <- data.frame(x1=rnorm(10),
+1533283762175:x2=rnorm(10),
+1533283762183:x3=rnorm(10))
+1533283763801:M <- cor(d) # get correlations
+1533283765451:library('corrplot') #package corrplot
+1533283783534:install.packages('corrplot')
+1533283788751:library('corrplot') #package corrplot
+1533283791820:corrplot(M, method = "circle") #plot matrix
+1533283818407:d <- data.frame(mydata)
+1533283821849:M <- cor(d) # get correlations
+1533283841590:View(mydata)
+1533283841779:View(mydata)
+1533283985875:library(dplyr)
+1533283999006:install.packages('dplyr')
+1533284251294:mydata_cor  = select(mydata, 'Price')
+1533284251338:mydata_cor
+1533284480693:mydata_cor  = select(mydata, 1)
+1533284489983:mydata_cor  = select(mydata, c(1))
+1533284496367:mydata_cor  = select(mydata, c(1,2))
+1533284515471:mydata_cor  = subset(mydata, c(1,2))
+1533284541182:df2 <- subset(mydata, select = c(1, 2, 5))
+1533284550524:View(df2)
+1533284550738:View(df2)
+1533284592484:df2 <- subset(mydata, select = c(4, 5, 6,7,8,9,10))
+1533284596244:View(df2)
+1533284596446:View(df2)
+1533284612723:df2 <- subset(mydata, select = c( 5, 6,7,8,9,10))
+1533284615701:View(df2)
+1533284615903:View(df2)
+1533284631929:df2 <- subset(mydata, select = c( 5, 6,7,8,9,10,11))
+1533284635225:View(df2)
+1533284635428:View(df2)
+1533284668332:M <- cor(df2) # get correlations
+1533284670277:corrplot(M, method = "circle") #plot matrix
+1533287581991:sapply(mydata, mean, na.rm=TRUE)
+1533287594886:sapply(df2, mean, na.rm=TRUE)
+1533287793975:sapply(df2, sd, na.rm=TRUE)
+1533290319058:help(corrplot)
+1533290327812:corrplot(M, method = "number") #plot matrix
+1533290338159:help(corrplot)
+1533290349828:corrplot(M, method = "number", type = up) #plot matrix
+1533290362988:corrplot(M, method = "number", type = 'upper') #plot matrix
+1533290679864:help(corrplot)
+1533302343938:corrplot(M, method = "number", type = 'upper') #plot matrix
+1533602160356:library(gdata)
+1533602160363:library('corrplot') #package corrplot
+1533602160403:library(dplyr)
+1533602160410:#help(read.xls)
+1533602160417:install.packages('corrplot')
+1533602164322:install.packages('dplyr')
+1533602470800:mydata = read.csv("data/all_together_2nd.csv",header = TRUE,sep=",")
+1533602470825:df2 <- subset(mydata, select = c( 5, 6,7,8,9,10,11))
+1533602470830:M <- cor(df2) # get correlations
+1533602470838:corrplot(M, method = "number", type = 'upper') #plot matrix
+1533602470844:help(corrplot)
+1533602470870:sapply(df2, mean, na.rm=TRUE)
+1533602470877:sapply(df2, sd, na.rm=TRUE)
+1533603554046:corrplot(M, method = "number", type = 'upper') #plot matrix
+1533603565100:#help(read.xls)
+1533603565108:install.packages('corrplot')
+1533603581785:library(corrplot) #package corrplot
+1533603585582:#help(read.xls)
+1533603585588:install.packages('corrplot')
+1533603595945:corrplot(M, method = "number", type = 'upper') #plot matrix
+1533603742974:library(plotly)
+1533603759047:install.packages('plotly')
+1533604959369:col(mydata)
+1533604999449:columnnames(mydata)
+1533605012233:colnames(mydata)
+1533605020343:View(mydata)
+1533605020534:View(mydata)
+1533605085932:cc_agg <- mydata%>%group_by(mydata$Address, mydata$Taste_Quantity) %>% summarise_each(funs(sum))
+1533605105213:cc_agg <- mydata.group_by(mydata$Address, mydata$Taste_Quantity)
+1533605134391:cc_agg <- mydata%>%
+1533605134397:group_by(mydata$Address, mydata$Taste_Quantity)
+1533605169594:library(dplyr)
+1533605208102:mydata%>%
+1533605208108:group_by(mydata$Address, mydata$Taste_Quantity) %>%summarise_each(funs(sum))
+1533605230582:mydata%>%
+1533605230589:group_by(mydata$Address, mydata$Taste_Quantity) %>%summarise_each(funs(mean))
+1533605243938:mydata%>%
+1533605243943:group_by(mydata$Address) %>%summarise_each(funs(mean))
+1533605322177:mydata%>%
+1533605322184:group_by(mydata$Address) %>%summarise(sum(mydata$Taste_Quantity))
+1533605333247:mydata%>%
+1533605333253:group_by(mydata$Address) %>%summarise(mean(mydata$Taste_Quantity))
+1533605346911:mydata%>%
+1533605346920:group_by(mydata$Address) %>%summarise(mean(mydata$Taste_Quantity))
+1533605364721:mydata%>%
+1533605364729:group_by(mydata$Address)
+1533605425194:mydata%>%
+1533605425201:group_by(mydata$Address)%>%summarise(mean(mydata$Taste_Quantity),
+1533605425209:sum(mydata$Taste_Quantity))
+1533605464286:mydata%>%
+1533605464292:group_by(mydata$Address)%>%summarise(mean(mydata$Price),
+1533605464299:sum(mydata$Taste_Quantity))
+1533605480601:mydata%>%
+1533605480609:group_by(mydata$Address)%>%summarise(mean(mydata$Price),
+1533605480616:sum(mydata$Taste_Quantity))
+1533605506835:mydata%>%
+1533605506844:group_by(mydata$Address,mydata$Address)%>%summarise(mean(mydata$Price),
+1533605506852:sum(mydata$Taste_Quantity))
+1533605592736:mydata %>%
+1533605592742:group_by(mydata$Address,mydata$Address)%>%
+1533605592747:summarise(mean(Price)
+1533605592754:)
+1533605614933:colnames(mydata)
+1533605691079:mydata %>%
+1533605691087:group_by(mydata$Address,mydata$Address)%>%
+1533605691094:summarise(mean(Taste_Quantity),
+1533605691101:mean(Price),
+1533605691107:mean(Service_Speed),
+1533605691113:mean(Eating_option),
+1533605691119:mean(Loyalty_cards),
+1533605691125:mean(hospitality),
+1533605691130:mean(Place_4_Hangout)
+1533605691136:)
+1533605743419:mydata %>%
+1533605743425:group_by(mydata$Address,mydata$Address)%>%
+1533605743431:summarise(Taste_Quantity= mean(Taste_Quantity),
+1533605743437:Price = mean(Price),
+1533605743442:Service_Speed =mean(Service_Speed),
+1533605743447:Eating_option = mean(Eating_option),
+1533605743452:Loyalty_cards = mean(Loyalty_cards),
+1533605743458:hospitality = mean(hospitality),
+1533605743463:Place_4_Hangout =mean(Place_4_Hangout)
+1533605743468:)
+1533605787718:mydata_mean = mydata %>%
+1533605787725:group_by(mydata$Address,mydata$Address)%>%
+1533605787731:summarise(Taste_Quantity= mean(Taste_Quantity),
+1533605787735:Price = mean(Price),
+1533605787741:Service_Speed =mean(Service_Speed),
+1533605787746:Eating_option = mean(Eating_option),
+1533605787751:Loyalty_cards = mean(Loyalty_cards),
+1533605787757:hospitality = mean(hospitality),
+1533605787762:Place_4_Hangout =mean(Place_4_Hangout)
+1533605787767:)
+1533605793491:mydata_mean
+1533605812855:cor(mydata_mean)
+1533605950027:mydata_mean_score =  mydata_mean_score%>%
+1533605950033:summarise(Score = Taste_Quantity +
+1533605950039:Price+
+1533605950044:Service_Speed +
+1533605950049:Eating_option +
+1533605950053:Loyalty_cards+
+1533605950059:hospitality +
+1533605950064:Place_4_Hangout )
+1533605964473:mydata_mean_score <-  mydata_mean_score%>%
+1533605964480:summarise(Score = Taste_Quantity +
+1533605964487:Price+
+1533605964494:Service_Speed +
+1533605964499:Eating_option +
+1533605964504:Loyalty_cards+
+1533605964512:hospitality +
+1533605964517:Place_4_Hangout )
+1533605982510:mydata_mean_score <-  mydata_mean%>%
+1533605982517:summarise(Score = Taste_Quantity +
+1533605982523:Price+
+1533605982530:Service_Speed +
+1533605982536:Eating_option +
+1533605982541:Loyalty_cards+
+1533605982550:hospitality +
+1533605982556:Place_4_Hangout )
+1533606001547:mydata_mean_score <-  mydata_mean%>%
+1533606001553:summarise(Score = sum(Taste_Quantity +
+1533606001563:Price+
+1533606001571:Service_Speed +
+1533606001581:Eating_option +
+1533606001587:Loyalty_cards+
+1533606001593:hospitality +
+1533606001601:Place_4_Hangout) )
+1533606023613:mydata_mean_score
+1533606027249:View(mydata_mean_score)
+1533606027426:View(mydata_mean_score)
+1533606056563:mydata_mean <-  mydata_mean%>%
+1533606056569:summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606056574:hospitality + Place_4_Hangout) )
+1533606059275:View(mydata_mean)
+1533606059450:View(mydata_mean)
+1533606104418:mydata_mean$Score <-  mydata_mean%>%
+1533606104424:summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606104431:hospitality + Place_4_Hangout) )
+1533606110981:mydata_mean = mydata %>%
+1533606110989:group_by(mydata$Address,mydata$Address)%>%
+1533606110996:summarise(Taste_Quantity= mean(Taste_Quantity),
+1533606111004:Price = mean(Price),
+1533606111011:Service_Speed =mean(Service_Speed),
+1533606111017:Eating_option = mean(Eating_option),
+1533606111025:Loyalty_cards = mean(Loyalty_cards),
+1533606111031:hospitality = mean(hospitality),
+1533606111036:Place_4_Hangout =mean(Place_4_Hangout)
+1533606111043:)
+1533606112405:mydata_mean$Score <-  mydata_mean%>%
+1533606112412:summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606112420:hospitality + Place_4_Hangout) )
+1533606125332:mydata_mean$Score <-  mydata_mean%>%summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606125338:hospitality + Place_4_Hangout) )
+1533606132595:mydata_mean$Score =  mydata_mean%>%summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606132601:hospitality + Place_4_Hangout) )
+1533606152575:mydata_mean = mydata %>%
+1533606152584:group_by(mydata$Address,mydata$Address)%>%
+1533606152593:summarise(Taste_Quantity= mean(Taste_Quantity),
+1533606152599:Price = mean(Price),
+1533606152604:Service_Speed =mean(Service_Speed),
+1533606152612:Eating_option = mean(Eating_option),
+1533606152617:Loyalty_cards = mean(Loyalty_cards),
+1533606152623:hospitality = mean(hospitality),
+1533606152630:Place_4_Hangout =mean(Place_4_Hangout)
+1533606152635:)
+1533606155112:View(mydata_mean)
+1533606155291:View(mydata_mean)
+1533606167636:mydata_mean$Score =  mydata_mean%>%summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606167644:hospitality + Place_4_Hangout) )
+1533606269037:mydata_mean$Score =  mydata_mean%>%summarise(Score = sum(Taste_Quantity) +sum(Price)+sum(Service_Speed) + sum(Eating_option) + sum(Loyalty_cards)+
+1533606269044:sum(hospitality) + sum(Place_4_Hangout)) )
+1533606277508:mydata_mean$Score =
+1533606277515:mydata_mean%>%summarise(Score = sum(Taste_Quantity) +sum(Price)+sum(Service_Speed) + sum(Eating_option) + sum(Loyalty_cards)+
+1533606277522:sum(hospitality) + sum(Place_4_Hangout)) )
+1533606309840:mydata_mean$Score <-
+1533606309848:mydata_mean%>%
+1533606309853:summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606309860:hospitality + Place_4_Hangout) )
+1533606321846:mydata_mean%>%
+1533606321852:summarise(Score = sum(Taste_Quantity +Price+Service_Speed + Eating_option + Loyalty_cards+
+1533606321859:hospitality + Place_4_Hangout) )
+1533606467658:rowSums(mydata_mean$Taste_Quantity,mydata_mean$Price)
+1533606490517:rowSums(mydata_mean$Taste_Quantity,mydata_mean$Price,mydata_mean$Service_Speed)
+1533606533981:data$new <- rowSums( mydata_mean[,:2] )
+1533606540208:data$new <- rowSums( mydata_mean[,:2,4] )
+1533606574737:rowSums( mydata_mean[,:2,4] )
+1533606581539:rowSums( mydata_mean[,:2,6] )
+1533606587874:rowSums( mydata_mean[,2,6] )
+1533606591327:rowSums( mydata_mean[2,6] )
+1533606676687:rowSums (mydata_mean, na.rm = FALSE, dims = 1)
+1533606682567:rowSums (mydata_mean, na.rm = FALSE, dims = 1)
+1533606699157:rowSums (mydata_mean$Taste_Quantity,mydata_mean$Price,mydata_mean$Service_Speed, na.rm = FALSE, dims = 1)
+1533606711169:rowSums ((mydata_mean$Taste_Quantity,mydata_mean$Price,mydata_mean$Service_Speed), na.rm = FALSE, dims = 1)
+1533606793245:rowSums(mydata_mean[, -"mydata$Address"])
+1533606802345:rowSums(mydata_mean[, -Address])
+1533606810980:View(mydata_mean)
+1533606811163:View(mydata_mean)
+1533606876946:rowSums(mydata_mean[, -mydata_mean$"mydata$Address"])
+1533607611930:rowSums(mydata_mean$Taste_Quantity,mydata_mean$Price,mydata_mean$Service_Speed)
+1533607636607:colnames(mydata_mean$`mydata$Address`) <- "Address"
+1533607672822:colnames(mydata_mean)[1] <- "Address"
+1533607677525:View(mydata_mean)
+1533607677695:View(mydata_mean)
+1533607705036:rowSums (mydata_mean, na.rm = FALSE, dims = 1)
+1533607721071:rowSums(mydata_mean[, -mydata_mean$Address])
+1533607747082:rowSums(mydata_mean[, -1])
+1533607847407:mydata_mean$Score <- rowSums(mydata_mean[, -1])
+1533607852330:View(mydata_mean)
+1533607852505:View(mydata_mean)
+1533607910826:colnames(mydata_mean)
+1533608012030:p <- mydata_mean %>%
+1533608012037:plot_ly(type = 'parcoords',
+1533608012042:line = list(color = ~Address,
+1533608012050:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608012054:dimensions = list(
+1533608012060:list(range = c(2,4.5),
+1533608012067:label = 'Sepal Width', values = ~Taste_Quantity),
+1533608012074:list(range = c(4,8),
+1533608012079:constraintrange = c(5,6),
+1533608012085:label = 'Sepal Length', values = ~Price),
+1533608012092:list(range = c(0,2.5),
+1533608012098:label = 'Petal Width', values = ~Service_Speed),
+1533608012103:list(range = c(1,7),
+1533608012111:label = 'Petal Length', values = ~Eating_option)
+1533608012116:)
+1533608012122:)
+1533608085823:library(plotly)
+1533608097419:p <- mydata_mean %>%
+1533608097427:plot_ly(type = 'parcoords',
+1533608097434:line = list(color = ~Address,
+1533608097442:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608097448:dimensions = list(
+1533608097453:list(range = c(2,4.5),
+1533608097461:label = 'Sepal Width', values = ~Taste_Quantity),
+1533608097468:list(range = c(4,8),
+1533608097473:constraintrange = c(5,6),
+1533608097480:label = 'Sepal Length', values = ~Price),
+1533608097485:list(range = c(0,2.5),
+1533608097490:label = 'Petal Width', values = ~Service_Speed),
+1533608097496:list(range = c(1,7),
+1533608097503:label = 'Petal Length', values = ~Eating_option)
+1533608097508:)
+1533608097513:)
+1533608112868:# Create a shareable link to your chart
+1533608112877:# Set up API credentials: https://plot.ly/r/getting-started
+1533608112885:chart_link = api_create(p, filename="parcoords-basic")
+1533608115810:chart_link
+1533608171654:p
+1533608228630:p
+1533608243497:p <- mydata_mean %>%
+1533608243504:plot_ly(type = 'parcoords',
+1533608243511:line = list(color = ~Address,
+1533608243516:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608243521:dimensions = list(
+1533608243526:list(range = c(2,4.5),
+1533608243531:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533608243536:list(range = c(4,8),
+1533608243541:constraintrange = c(5,6),
+1533608243546:label = 'Price', values = ~Price),
+1533608243551:list(range = c(0,2.5),
+1533608243556:label = 'Service_Speed', values = ~Service_Speed),
+1533608243561:list(range = c(1,7),
+1533608243566:label = 'Eating_option', values = ~Ea
+1533608243571:ting_option)
+1533608243577:)
+1533608243582:)
+1533608250497:p <- mydata_mean %>%
+1533608250504:plot_ly(type = 'parcoords',
+1533608250511:line = list(color = ~Address,
+1533608250516:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608250521:dimensions = list(
+1533608250527:list(range = c(2,4.5),
+1533608250533:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533608250538:list(range = c(4,8),
+1533608250542:constraintrange = c(5,6),
+1533608250548:label = 'Price', values = ~Price),
+1533608250553:list(range = c(0,2.5),
+1533608250558:label = 'Service_Speed', values = ~Service_Speed),
+1533608250562:list(range = c(1,7),
+1533608250569:label = 'Eating_option', values = ~Ea
+1533608250574:ting_option)
+1533608250579:)
+1533608250583:)
+1533608266687:p <- mydata_mean %>%
+1533608266694:plot_ly(type = 'parcoords',
+1533608266701:line = list(color = ~Address,
+1533608266707:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608266713:dimensions = list(
+1533608266719:list(range = c(2,4.5),
+1533608266725:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533608266730:list(range = c(4,8),
+1533608266736:constraintrange = c(5,6),
+1533608266742:label = 'Price', values = ~Price),
+1533608266748:list(range = c(0,2.5),
+1533608266753:label = 'Service_Speed', values = ~Service_Speed),
+1533608266760:list(range = c(1,7),
+1533608266765:label = 'Eating_option', values = ~Eating_option)
+1533608266771:)
+1533608266776:)
+1533608268046:p
+1533608310975:mydata_mean
+1533608380678:# parcoords
+1533608380685:p <- mydata_mean %>%
+1533608380692:plot_ly(type = 'parcoords',
+1533608380698:line = list(color = ~Address,
+1533608380703:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608380710:dimensions = list(
+1533608380716:list(
+1533608380721:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533608380727:list(
+1533608380733:constraintrange = c(5,6),
+1533608380739:label = 'Price', values = ~Price),
+1533608380744:list(
+1533608380751:label = 'Service_Speed', values = ~Service_Speed),
+1533608380756:list(
+1533608380762:label = 'Eating_option', values = ~Eating_option)
+1533608380768:)
+1533608380774:)
+1533608382210:p
+1533608449723:# parcoords
+1533608449731:p <- mydata_mean %>%
+1533608449739:plot_ly(type = 'parcoords',
+1533608449744:line = list(color = ~Address,
+1533608449750:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533608449759:dimensions = list(
+1533608449767:list(
+1533608449772:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533608449780:list(
+1533608449785:label = 'Price', values = ~Price),
+1533608449790:list(
+1533608449796:label = 'Service_Speed', values = ~Service_Speed),
+1533608449802:list(
+1533608449807:label = 'Eating_option', values = ~Eating_option)
+1533608449813:)
+1533608449820:)
+1533608450769:p
+1533609401105:# parcoords
+1533609401112:p <- mydata_mean %>%
+1533609401120:plot_ly(type = 'parcoords',
+1533609401127:line = list(color = ~Score,
+1533609401133:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533609401140:dimensions = list(
+1533609401145:list(
+1533609401151:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609401157:list(
+1533609401163:label = 'Price', values = ~Price),
+1533609401168:list(
+1533609401173:label = 'Service_Speed', values = ~Service_Speed),
+1533609401180:list(
+1533609401185:label = 'Eating_option', values = ~Eating_option)
+1533609401190:)
+1533609401196:)
+1533609401596:p
+1533609608395:# parcoords
+1533609608400:p <- mydata_mean %>%
+1533609608407:plot_ly(type = 'parcoords',
+1533609608413:line = list(color = ~Address,
+1533609608419:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533609608424:dimensions = list(
+1533609608430:list(
+1533609608435:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609608440:list(
+1533609608444:label = 'Price', values = ~Price),
+1533609608450:list(
+1533609608455:label = 'Service_Speed', values = ~Service_Speed),
+1533609608460:list(
+1533609608464:label = 'Eating_option', values = ~Eating_option)
+1533609608470:)
+1533609608475:)
+1533609608820:p
+1533609643993:# parcoords
+1533609644001:p <- mydata_mean %>%
+1533609644009:plot_ly(type = 'parcoords',
+1533609644014:line = list(color = ~Address,
+1533609644022:colorscale = list(c(0,'red'),c(0.5,'green'),c(1,'blue'))),
+1533609644029:dimensions = list(
+1533609644035:list(range = c(1,10),
+1533609644040:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609644046:list(range = c(1,10),
+1533609644052:label = 'Price', values = ~Price),
+1533609644058:list(range = c(1,10),
+1533609644063:label = 'Service_Speed', values = ~Service_Speed),
+1533609644071:list(range = c(1,10),
+1533609644076:label = 'Eating_option', values = ~Eating_option)
+1533609644081:)
+1533609644087:)
+1533609644503:p
+1533609724503:# parcoords
+1533609724508:p <- mydata_mean %>%
+1533609724515:plot_ly(type = 'parcoords',
+1533609724522:line = list(
+1533609724526:line = list(color = ~Address,
+1533609724532:colorscale = 'Jet',
+1533609724537:showscale = TRUE,
+1533609724543:reversescale = TRUE,
+1533609724549:cmin = -4000,
+1533609724554:cmax = -100),
+1533609724560:),
+1533609724569:dimensions = list(
+1533609724574:list(range = c(1,10),
+1533609724580:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609724585:list(range = c(1,10),
+1533609724590:label = 'Price', values = ~Price),
+1533609724595:list(range = c(1,10),
+1533609724601:label = 'Service_Speed', values = ~Service_Speed),
+1533609724606:list(range = c(1,10),
+1533609724611:label = 'Eating_option', values = ~Eating_option)
+1533609724616:)
+1533609724622:)
+1533609746598:# parcoords
+1533609746605:p <- mydata_mean %>%
+1533609746613:plot_ly(type = 'parcoords',
+1533609746619:line = list(color = ~Address,
+1533609746625:colorscale = 'Jet',
+1533609746630:showscale = TRUE,
+1533609746636:reversescale = TRUE,
+1533609746642:cmin = -4000,
+1533609746648:cmax = -100),
+1533609746654:),
+1533609746663:dimensions = list(
+1533609746669:list(range = c(1,10),
+1533609746674:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609746680:list(range = c(1,10),
+1533609746685:label = 'Price', values = ~Price),
+1533609746691:list(range = c(1,10),
+1533609746696:label = 'Service_Speed', values = ~Service_Speed),
+1533609746702:list(range = c(1,10),
+1533609746708:label = 'Eating_option', values = ~Eating_option)
+1533609746714:)
+1533609758559:# parcoords
+1533609758567:p <- mydata_mean %>%
+1533609758573:plot_ly(type = 'parcoords',
+1533609758580:line = list(color = ~Address,
+1533609758587:colorscale = 'Jet',
+1533609758592:showscale = TRUE,
+1533609758599:reversescale = TRUE,
+1533609758608:cmin = -4000,
+1533609758613:cmax = -100),
+1533609758623:dimensions = list(
+1533609758629:list(range = c(1,10),
+1533609758634:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609758640:list(range = c(1,10),
+1533609758646:label = 'Price', values = ~Price),
+1533609758652:list(range = c(1,10),
+1533609758658:label = 'Service_Speed', values = ~Service_Speed),
+1533609758663:list(range = c(1,10),
+1533609758669:label = 'Eating_option', values = ~Eating_option)
+1533609758675:)
+1533609758681:)
+1533609759620:p
+1533609864671:# parcoords
+1533609864679:p <- mydata_mean %>%
+1533609864687:plot_ly(width = 1000, height = 600) %>%
+1533609864695:add_trace(type = 'parcoords',
+1533609864701:line = list(color = ~colorVal,
+1533609864708:colorscale = 'Jet',
+1533609864715:showscale = TRUE,
+1533609864721:reversescale = TRUE,
+1533609864731:cmin = -4000,
+1533609864737:cmax = -100),
+1533609864743:dimensions = list(
+1533609864752:list(range = c(1,10),
+1533609864758:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609864763:list(range = c(1,10),
+1533609864771:label = 'Price', values = ~Price),
+1533609864777:list(range = c(1,10),
+1533609864783:label = 'Service_Speed', values = ~Service_Speed),
+1533609864792:list(range = c(1,10),
+1533609864798:label = 'Eating_option', values = ~Eating_option)
+1533609864803:)
+1533609864812:)
+1533609865861:p
+1533609877419:# parcoords
+1533609877427:p <- mydata_mean %>%
+1533609877437:plot_ly(width = 1000, height = 600) %>%
+1533609877446:add_trace(type = 'parcoords',
+1533609877452:line = list(color = ~Address,
+1533609877459:colorscale = 'Jet',
+1533609877464:showscale = TRUE,
+1533609877471:reversescale = TRUE,
+1533609877478:cmin = -4000,
+1533609877484:cmax = -100),
+1533609877491:dimensions = list(
+1533609877496:list(range = c(1,10),
+1533609877502:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533609877508:list(range = c(1,10),
+1533609877514:label = 'Price', values = ~Price),
+1533609877520:list(range = c(1,10),
+1533609877525:label = 'Service_Speed', values = ~Service_Speed),
+1533609877532:list(range = c(1,10),
+1533609877539:label = 'Eating_option', values = ~Eating_option)
+1533609877545:)
+1533609877552:)
+1533609877891:p
+1533609999358:help(plot_ly)
+1533610129881:y_levels <- levels(factor(1:7))
+1533610134290:ggplot(df_pcp, aes(x = variable, y = value, group = id)) +   # group = id is important!
+1533610134299:geom_path(aes(size = n, color = id),
+1533610134306:alpha = 0.5,
+1533610134313:lineend = 'round', linejoin = 'round') +
+1533610134320:scale_y_discrete(limits = y_levels, expand = c(0.5, 0)) +
+1533610134325:scale_size(breaks = NULL, range = c(1, 7))
+1533610204831:ggplot(mydata_mean, aes(x = mydata_mean$Address, y = mydata_mean$Price, group = mydata_mean$Address)) +   # group = id is important!
+1533610204838:geom_path(aes(size = n, color = id),
+1533610204843:alpha = 0.5,
+1533610204849:lineend = 'round', linejoin = 'round') +
+1533610204857:scale_y_discrete(limits = y_levels, expand = c(0.5, 0)) +
+1533610204862:scale_size(breaks = NULL, range = c(1, 7))
+1533610225239:ggplot(mydata_mean, aes(x = mydata_mean$Address, y = mydata_mean$Price, group = mydata_mean$Address)) +   # group = id is important!
+1533610225246:geom_path(aes(size = 100, color = id),
+1533610225251:alpha = 0.5,
+1533610225256:lineend = 'round', linejoin = 'round') +
+1533610225262:scale_y_discrete(limits = y_levels, expand = c(0.5, 0)) +
+1533610225267:scale_size(breaks = NULL, range = c(1, 7))
+1533610237710:ggplot(mydata_mean, aes(x = mydata_mean$Address, y = mydata_mean$Price, group = mydata_mean$Address)) +   # group = id is important!
+1533610237717:geom_path(aes(size = 100),
+1533610237722:alpha = 0.5,
+1533610237730:lineend = 'round', linejoin = 'round') +
+1533610237736:scale_y_discrete(limits = y_levels, expand = c(0.5, 0)) +
+1533610237742:scale_size(breaks = NULL, range = c(1, 7))
+1533610365355:# parcoords
+1533610365363:p <- mydata_mean %>%
+1533610365371:plot_ly(width = 1000, height = 600) %>%
+1533610365376:add_trace(type = 'parcoords',
+1533610365383:line = list(color = ~Address,
+1533610365391:colorscale = 'Jet',
+1533610365396:showscale = TRUE,
+1533610365402:reversescale = TRUE,
+1533610365409:cmin = -4000,
+1533610365414:cmax = -100),
+1533610365420:dimensions = list(
+1533610365426:list(range = c(1,10),
+1533610365432:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533610365437:list(range = c(1,10),
+1533610365442:label = 'Price', values = ~Price),
+1533610365449:list(range = c(1,10),
+1533610365455:label = 'Service_Speed', values = ~Service_Speed),
+1533610365460:list(range = c(1,10),
+1533610365465:label = 'Eating_option', values = ~Eating_option)
+1533610365472:)
+1533610365477:)
+1533610365711:p
+1533610518953:# parcoords
+1533610518959:p <- mydata_mean %>%
+1533610518967:plot_ly(width = 1000, height = 600) %>%
+1533610518975:add_trace(type = 'parcoords',
+1533610518980:line = list(color = ~Score,
+1533610518987:colorscale = 'Jet',
+1533610518994:showscale = TRUE,
+1533610519000:reversescale = TRUE,
+1533610519006:cmin = -4000,
+1533610519013:cmax = -100),
+1533610519018:dimensions = list(
+1533610519024:list(range = c(1,10),
+1533610519031:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533610519036:list(range = c(1,10),
+1533610519042:label = 'Price', values = ~Price),
+1533610519050:list(range = c(1,10),
+1533610519056:label = 'Service_Speed', values = ~Service_Speed),
+1533610519061:list(range = c(1,10),
+1533610519067:label = 'Eating_option', values = ~Eating_option)
+1533610519074:)
+1533610519080:)
+1533610519210:p
+1533610808734:# parcoords
+1533610808741:p <- mydata_mean %>%
+1533610808751:plot_ly(width = 1000, height = 600) %>%
+1533610808756:add_trace(type = 'parcoords',
+1533610808761:line = list(color = ~Score,
+1533610808768:label = ~Address
+1533610808775:colorscale = 'Jet',
+1533610808781:showscale = TRUE,
+1533610808787:reversescale = TRUE,
+1533610808794:cmin = -4000,
+1533610808799:cmax = -100),
+1533610808804:dimensions = list(
+1533610808812:list(range = c(1,10),
+1533610808818:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533610808824:list(range = c(1,10),
+1533610808832:label = 'Price', values = ~Price),
+1533610808838:list(range = c(1,10),
+1533610808844:label = 'Service_Speed', values = ~Service_Speed),
+1533610808852:list(range = c(1,10),
+1533610808857:label = 'Eating_option', values = ~Eating_option)
+1533610808863:)
+1533610808870:)
+1533610816126:# parcoords
+1533610816133:p <- mydata_mean %>%
+1533610816141:plot_ly(width = 1000, height = 600) %>%
+1533610816148:add_trace(type = 'parcoords',
+1533610816153:line = list(color = ~Score,
+1533610816160:label = ~Address,
+1533610816166:colorscale = 'Jet',
+1533610816171:showscale = TRUE,
+1533610816177:reversescale = TRUE,
+1533610816186:cmin = -4000,
+1533610816191:cmax = -100),
+1533610816197:dimensions = list(
+1533610816203:list(range = c(1,10),
+1533610816209:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533610816214:list(range = c(1,10),
+1533610816221:label = 'Price', values = ~Price),
+1533610816227:list(range = c(1,10),
+1533610816232:label = 'Service_Speed', values = ~Service_Speed),
+1533610816239:list(range = c(1,10),
+1533610816244:label = 'Eating_option', values = ~Eating_option)
+1533610816249:)
+1533610816255:)
+1533610816540:p
+1533610968349:# parcoords
+1533610968357:p <- mydata_mean %>%
+1533610968367:plot_ly(width = 1000, height = 600) %>%
+1533610968373:add_trace(type = 'parcoords',
+1533610968382:line = list(color = ~Score,
+1533610968389:name = ~Address,
+1533610968395:colorscale = 'Jet',
+1533610968402:showscale = TRUE,
+1533610968409:reversescale = TRUE,
+1533610968415:cmin = -4000,
+1533610968423:cmax = -100),
+1533610968429:dimensions = list(
+1533610968435:list(range = c(1,10),
+1533610968443:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533610968450:list(range = c(1,10),
+1533610968456:label = 'Price', values = ~Price),
+1533610968463:list(range = c(1,10),
+1533610968469:label = 'Service_Speed', values = ~Service_Speed),
+1533610968475:list(range = c(1,10),
+1533610968482:label = 'Eating_option', values = ~Eating_option)
+1533610968489:)
+1533610968495:)
+1533610969157:p
+1533611106817:# parcoords
+1533611106823:p <- mydata_mean %>%
+1533611106832:plot_ly(width = 1000, height = 600) %>%
+1533611106838:add_trace(type = 'parcoords',
+1533611106843:line = list(color = ~Score,
+1533611106851:colorscale = 'Jet',
+1533611106856:showscale = TRUE,
+1533611106862:reversescale = TRUE,
+1533611106869:cmin = -4000,
+1533611106874:cmax = -100),
+1533611106880:name = ~Address,
+1533611106885:dimensions = list(
+1533611106892:list(range = c(1,10),
+1533611106898:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611106904:list(range = c(1,10),
+1533611106912:label = 'Price', values = ~Price),
+1533611106919:list(range = c(1,10),
+1533611106928:label = 'Service_Speed', values = ~Service_Speed),
+1533611106937:list(range = c(1,10),
+1533611106942:label = 'Eating_option', values = ~Eating_option)
+1533611106949:)
+1533611106954:)
+1533611107705:p
+1533611124520:# parcoords
+1533611124527:p <- mydata_mean %>%
+1533611124534:plot_ly(width = 1000, height = 600) %>%
+1533611124541:add_trace(type = 'parcoords', name = ~Address,
+1533611124546:line = list(color = ~Score,
+1533611124551:colorscale = 'Jet',
+1533611124560:showscale = TRUE,
+1533611124565:reversescale = TRUE,
+1533611124571:cmin = -4000,
+1533611124576:cmax = -100),
+1533611124586:dimensions = list(
+1533611124591:list(range = c(1,10),
+1533611124598:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611124603:list(range = c(1,10),
+1533611124608:label = 'Price', values = ~Price),
+1533611124613:list(range = c(1,10),
+1533611124621:label = 'Service_Speed', values = ~Service_Speed),
+1533611124626:list(range = c(1,10),
+1533611124631:label = 'Eating_option', values = ~Eating_option)
+1533611124636:)
+1533611124643:)
+1533611124807:p
+1533611139312:# parcoords
+1533611139320:p <- mydata_mean %>%
+1533611139327:plot_ly(width = 1000, height = 600) %>%
+1533611139334:add_trace(type = 'parcoords',
+1533611139341:line = list(color = ~Score,
+1533611139346:colorscale = 'Jet',
+1533611139353:showscale = TRUE,
+1533611139359:reversescale = TRUE,
+1533611139364:cmin = -4000,
+1533611139371:cmax = -100),
+1533611139379:dimensions = list( name = ~Address,
+1533611139385:list(range = c(1,10),
+1533611139392:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611139398:list(range = c(1,10),
+1533611139403:label = 'Price', values = ~Price),
+1533611139410:list(range = c(1,10),
+1533611139416:label = 'Service_Speed', values = ~Service_Speed),
+1533611139421:list(range = c(1,10),
+1533611139427:label = 'Eating_option', values = ~Eating_option)
+1533611139434:)
+1533611139440:)
+1533611139959:p
+1533611155608:# parcoords
+1533611155615:p <- mydata_mean %>%
+1533611155624:plot_ly(width = 1000, height = 600) %>%
+1533611155630:add_trace(type = 'parcoords',
+1533611155636:line = list(color = ~Score,
+1533611155648:colorscale = 'Jet',
+1533611155655:showscale = TRUE,
+1533611155662:reversescale = TRUE,
+1533611155668:cmin = -4000,
+1533611155674:cmax = -100),
+1533611155685:dimensions = list( name = mydata_mean~Address,
+1533611155691:list(range = c(1,10),
+1533611155699:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611155705:list(range = c(1,10),
+1533611155711:label = 'Price', values = ~Price),
+1533611155717:list(range = c(1,10),
+1533611155724:label = 'Service_Speed', values = ~Service_Speed),
+1533611155730:list(range = c(1,10),
+1533611155736:label = 'Eating_option', values = ~Eating_option)
+1533611155743:)
+1533611155749:)
+1533611157232:p
+1533611189319:# parcoords
+1533611189326:p <- mydata_mean %>%
+1533611189332:plot_ly(width = 1000, height = 600) %>%
+1533611189339:add_trace(type = 'parcoords', name = mydata_mean~Address,
+1533611189345:line = list(color = ~Score,
+1533611189349:colorscale = 'Jet',
+1533611189355:showscale = TRUE,
+1533611189362:reversescale = TRUE,
+1533611189367:cmin = -4000,
+1533611189371:cmax = -100),
+1533611189380:dimensions = list(
+1533611189385:list(range = c(1,10),
+1533611189390:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611189395:list(range = c(1,10),
+1533611189401:label = 'Price', values = ~Price),
+1533611189406:list(range = c(1,10),
+1533611189411:label = 'Service_Speed', values = ~Service_Speed),
+1533611189416:list(range = c(1,10),
+1533611189421:label = 'Eating_option', values = ~Eating_option)
+1533611189426:)
+1533611189431:)
+1533611191199:p
+1533611586047:# parcoords
+1533611586054:p <- mydata_mean %>%
+1533611586063:plot_ly(width = 1000, height = 600) %>%
+1533611586070:add_trace(type = 'parcoords', ids = mydata_mean~Address,
+1533611586077:line = list(color = ~Score,
+1533611586084:colorscale = 'Jet',
+1533611586091:showscale = TRUE,
+1533611586098:reversescale = TRUE,
+1533611586105:cmin = -4000,
+1533611586111:cmax = -100),
+1533611586120:dimensions = list(
+1533611586125:list(range = c(1,10),
+1533611586130:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611586135:list(range = c(1,10),
+1533611586142:label = 'Price', values = ~Price),
+1533611586147:list(range = c(1,10),
+1533611586152:label = 'Service_Speed', values = ~Service_Speed),
+1533611586159:list(range = c(1,10),
+1533611586164:label = 'Eating_option', values = ~Eating_option)
+1533611586170:)
+1533611586175:)
+1533611587188:p
+1533611660098:# parcoords
+1533611660103:p <- mydata_mean %>%
+1533611660110:plot_ly(width = 1000, height = 600) %>%
+1533611660116:add_trace(type = 'parcoords', name = mydata_mean~Address,
+1533611660121:line = list(color = ~Score,
+1533611660127:colorscale = 'Jet',
+1533611660132:showscale = TRUE,
+1533611660137:reversescale = TRUE,
+1533611660143:cmin = -4000,
+1533611660148:cmax = -100),
+1533611660155:dimensions = list(
+1533611660160:list(range = c(1,10),
+1533611660165:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611660170:list(range = c(1,10),
+1533611660174:label = 'Price', values = ~Price),
+1533611660180:list(range = c(1,10),
+1533611660184:label = 'Service_Speed', values = ~Service_Speed),
+1533611660190:list(range = c(1,10),
+1533611660194:label = 'Eating_option', values = ~Eating_option)
+1533611660200:)
+1533611660205:)
+1533611660707:p
+1533611696174:# parcoords
+1533611696180:p <- mydata_mean %>%
+1533611696191:plot_ly(width = 1000, height = 600) %>%
+1533611696196:add_trace(type = 'parcoords', hoverlabel = mydata_mean~Address,
+1533611696202:line = list(color = ~Score,
+1533611696208:colorscale = 'Jet',
+1533611696215:showscale = TRUE,
+1533611696220:reversescale = TRUE,
+1533611696226:cmin = -4000,
+1533611696233:cmax = -100),
+1533611696242:dimensions = list(
+1533611696249:list(range = c(1,10),
+1533611696255:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611696261:list(range = c(1,10),
+1533611696267:label = 'Price', values = ~Price),
+1533611696273:list(range = c(1,10),
+1533611696279:label = 'Service_Speed', values = ~Service_Speed),
+1533611696285:list(range = c(1,10),
+1533611696292:label = 'Eating_option', values = ~Eating_option)
+1533611696298:)
+1533611696303:)
+1533611696926:p
+1533611869531:# parcoords
+1533611869539:p <- mydata_mean %>%
+1533611869546:plot_ly(width = 1000, height = 600) %>%
+1533611869555:add_trace(type = 'parcoords',
+1533611869560:hoverlabel = lsit(hoverlabel=mydata_mean~Address),
+1533611869567:line = list(color = ~Score,
+1533611869574:colorscale = 'Jet',
+1533611869579:showscale = TRUE,
+1533611869586:reversescale = TRUE,
+1533611869592:cmin = -4000,
+1533611869598:cmax = -100),
+1533611869607:dimensions = list(
+1533611869613:list(range = c(1,10),
+1533611869619:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611869624:list(range = c(1,10),
+1533611869631:label = 'Price', values = ~Price),
+1533611869637:list(range = c(1,10),
+1533611869642:label = 'Service_Speed', values = ~Service_Speed),
+1533611869649:list(range = c(1,10),
+1533611869654:label = 'Eating_option', values = ~Eating_option)
+1533611869659:)
+1533611869665:)
+1533611870077:p
+1533611898056:# parcoords
+1533611898063:p <- mydata_mean %>%
+1533611898073:plot_ly(width = 1000, height = 600) %>%
+1533611898079:add_trace(type = 'parcoords',
+1533611898085:hoverlabel = list(hoverlabel=mydata_mean~Address,),
+1533611898092:line = list(color = ~Score,
+1533611898099:colorscale = 'Jet',
+1533611898105:showscale = TRUE,
+1533611898112:reversescale = TRUE,
+1533611898117:cmin = -4000,
+1533611898123:cmax = -100),
+1533611898132:dimensions = list(
+1533611898137:list(range = c(1,10),
+1533611898143:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533611898150:list(range = c(1,10),
+1533611898156:label = 'Price', values = ~Price),
+1533611898161:list(range = c(1,10),
+1533611898167:label = 'Service_Speed', values = ~Service_Speed),
+1533611898173:list(range = c(1,10),
+1533611898179:label = 'Eating_option', values = ~Eating_option)
+1533611898184:)
+1533611898191:)
+1533611898412:p
+1533612225087:# parcoords
+1533612225093:p <- mydata_mean %>%
+1533612225102:plot_ly(width = 1000, height = 600) %>%
+1533612225108:add_trace(type = 'parcoords',
+1533612225114:hoverlabel =
+1533612225121:line = list(color = ~Score,hoverlabel=~Address,
+1533612225127:colorscale = 'Jet',
+1533612225133:showscale = TRUE,
+1533612225140:reversescale = TRUE,
+1533612225145:cmin = -4000,
+1533612225150:cmax = -100),
+1533612225159:dimensions = list(
+1533612225164:list(range = c(1,10),
+1533612225169:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533612225174:list(range = c(1,10),
+1533612225180:label = 'Price', values = ~Price),
+1533612225185:list(range = c(1,10),
+1533612225190:label = 'Service_Speed', values = ~Service_Speed),
+1533612225195:list(range = c(1,10),
+1533612225201:label = 'Eating_option', values = ~Eating_option)
+1533612225206:)
+1533612225211:)
+1533612225413:p
+1533613475377:# parcoords
+1533613475386:p <- mydata_mean %>%
+1533613475396:plot_ly(width = 1000, height = 600) %>%
+1533613475403:add_trace(type = 'parcoords',
+1533613475410:hoverlabel =
+1533613475416:line = list(color = ~Score,hoverlabel=~Address,line=~Address,
+1533613475422:colorscale = 'Jet',
+1533613475429:showscale = TRUE,
+1533613475435:reversescale = TRUE,
+1533613475441:cmin = -4000,
+1533613475446:cmax = -100),
+1533613475456:dimensions = list(
+1533613475461:list(range = c(1,10),
+1533613475466:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613475473:list(range = c(1,10),
+1533613475478:label = 'Price', values = ~Price),
+1533613475483:list(range = c(1,10),
+1533613475491:label = 'Service_Speed', values = ~Service_Speed),
+1533613475496:list(range = c(1,10),
+1533613475502:label = 'Eating_option', values = ~Eating_option)
+1533613475509:)
+1533613475515:)
+1533613475708:p
+1533613731333:# parcoords
+1533613731340:p <- mydata_mean %>%
+1533613731350:plot_ly(width = 1000, height = 600) %>%
+1533613731356:add_trace(type = 'parcoords',
+1533613731363:hoverlabel =
+1533613731372:line = list(color = ~Score,
+1533613731379:hoverlabel=~Address,
+1533613731386:colorscale = 'Jet',
+1533613731394:showscale = TRUE,
+1533613731399:reversescale = TRUE,
+1533613731406:cmin = -4000,
+1533613731414:cmax = -100),
+1533613731423:dimensions = list(
+1533613731431:list(range = c(1,10),
+1533613731437:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613731443:list(range = c(1,10),
+1533613731451:label = 'Price', values = ~Price),
+1533613731457:list(range = c(1,10),
+1533613731463:label = 'Service_Speed', values = ~Service_Speed),
+1533613731471:list(range = c(1,10),
+1533613731478:label = 'Eating_option', values = ~Eating_option)
+1533613731483:)
+1533613731492:)
+1533613731844:p
+1533613756606:# parcoords
+1533613756611:p <- mydata_mean %>%
+1533613756619:plot_ly(width = 1000, height = 600) %>%
+1533613756625:add_trace(type = 'parcoords',
+1533613756630:hoverlabel =
+1533613756636:line = list(color = ~Score,
+1533613756643:label="test",
+1533613756649:hoverlabel=~Address,
+1533613756655:colorscale = 'Jet',
+1533613756662:showscale = TRUE,
+1533613756667:reversescale = TRUE,
+1533613756673:cmin = -4000,
+1533613756680:cmax = -100),
+1533613756688:dimensions = list(
+1533613756693:list(range = c(1,10),
+1533613756699:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613756704:list(range = c(1,10),
+1533613756710:label = 'Price', values = ~Price),
+1533613756715:list(range = c(1,10),
+1533613756721:label = 'Service_Speed', values = ~Service_Speed),
+1533613756727:list(range = c(1,10),
+1533613756732:label = 'Eating_option', values = ~Eating_option)
+1533613756738:)
+1533613756744:)
+1533613757157:p
+1533613762837:# parcoords
+1533613762844:p <- mydata_mean %>%
+1533613762853:plot_ly(width = 1000, height = 600) %>%
+1533613762859:add_trace(type = 'parcoords',
+1533613762865:hoverlabel =
+1533613762872:line = list(color = ~Score,
+1533613762879:label="test",
+1533613762884:hoverlabel=~Address,
+1533613762891:colorscale = 'Jet',
+1533613762896:showscale = TRUE,
+1533613762902:reversescale = TRUE,
+1533613762909:cmin = -4000,
+1533613762914:cmax = -100),
+1533613762923:dimensions = list(
+1533613762930:list(range = c(1,10),
+1533613762935:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613762941:list(range = c(1,10),
+1533613762946:label = 'Price', values = ~Price),
+1533613762952:list(range = c(1,10),
+1533613762958:label = 'Service_Speed', values = ~Service_Speed),
+1533613762963:list(range = c(1,10),
+1533613762970:label = 'Eating_option', values = ~Eating_option)
+1533613762975:)
+1533613762981:)
+1533613776622:# parcoords
+1533613776629:p <- mydata_mean %>%
+1533613776636:plot_ly(width = 1000, height = 600) %>%
+1533613776644:add_trace(type = 'parcoords',
+1533613776651:line = list(color = ~Score,
+1533613776659:label="test",
+1533613776665:hoverlabel=~Address,
+1533613776671:colorscale = 'Jet',
+1533613776679:showscale = TRUE,
+1533613776685:reversescale = TRUE,
+1533613776691:cmin = -4000,
+1533613776697:cmax = -100),
+1533613776707:dimensions = list(
+1533613776713:list(range = c(1,10),
+1533613776721:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613776726:list(range = c(1,10),
+1533613776732:label = 'Price', values = ~Price),
+1533613776740:list(range = c(1,10),
+1533613776745:label = 'Service_Speed', values = ~Service_Speed),
+1533613776750:list(range = c(1,10),
+1533613776757:label = 'Eating_option', values = ~Eating_option)
+1533613776765:)
+1533613776771:)
+1533613777454:p
+1533613954417:# parcoords
+1533613954423:p <- mydata_mean %>%
+1533613954431:plot_ly(width = 1000, height = 600) %>%
+1533613954436:add_trace(type = 'parcoords',
+1533613954442:line = list(color = ~Score,
+1533613954449:label=~Address,
+1533613954454:#hoverlabel=~Address,
+1533613954459:colorscale = 'Jet',
+1533613954464:showscale = TRUE,
+1533613954470:reversescale = TRUE,
+1533613954475:cmin = -4000,
+1533613954480:cmax = -100),
+1533613954489:dimensions = list(
+1533613954493:list(range = c(1,10),
+1533613954499:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613954505:list(range = c(1,10),
+1533613954512:label = 'Price', values = ~Price),
+1533613954517:list(range = c(1,10),
+1533613954522:label = 'Service_Speed', values = ~Service_Speed),
+1533613954529:list(range = c(1,10),
+1533613954535:label = 'Eating_option', values = ~Eating_option)
+1533613954540:)
+1533613954546:)
+1533613954703:p
+1533613977660:# parcoords
+1533613977667:p <- mydata_mean %>%
+1533613977675:plot_ly(width = 1000, height = 600) %>%
+1533613977683:add_trace(type = 'parcoords',
+1533613977689:line = list(
+1533613977696:label=~Address
+1533613977703:#hoverlabel=~Address,
+1533613977709:),
+1533613977719:dimensions = list(
+1533613977725:list(range = c(1,10),
+1533613977730:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533613977736:list(range = c(1,10),
+1533613977742:label = 'Price', values = ~Price),
+1533613977748:list(range = c(1,10),
+1533613977753:label = 'Service_Speed', values = ~Service_Speed),
+1533613977760:list(range = c(1,10),
+1533613977766:label = 'Eating_option', values = ~Eating_option)
+1533613977771:)
+1533613977776:)
+1533613978803:p
+1533614027112:# parcoords
+1533614027118:p <- mydata_mean %>%
+1533614027126:plot_ly(width = 1000, height = 600) %>%
+1533614027133:add_trace(type = 'parcoords',
+1533614027139:line = list(color = ~Score,
+1533614027146:label=mydata_mean$Address,
+1533614027152:#hoverlabel=~Address,
+1533614027158:colorscale = 'Jet',
+1533614027163:showscale = TRUE,
+1533614027170:reversescale = TRUE,
+1533614027175:cmin = -4000,
+1533614027180:cmax = -100),
+1533614027190:dimensions = list(
+1533614027195:list(range = c(1,10),
+1533614027201:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533614027206:list(range = c(1,10),
+1533614027213:label = 'Price', values = ~Price),
+1533614027218:list(range = c(1,10),
+1533614027223:label = 'Service_Speed', values = ~Service_Speed),
+1533614027230:list(range = c(1,10),
+1533614027235:label = 'Eating_option', values = ~Eating_option)
+1533614027240:)
+1533614027246:)
+1533614028105:p
+1533614056683:# parcoords
+1533614056690:p <- mydata_mean %>%
+1533614056700:plot_ly(width = 1000, height = 600) %>%
+1533614056707:add_trace(type = 'parcoords',
+1533614056713:line = list(color = ~Score,
+1533614056721:label=mydata_mean$Address,
+1533614056727:#hoverlabel=~Address,
+1533614056732:colorscale = 'Jet',
+1533614056740:showscale = TRUE,
+1533614056746:reversescale = TRUE,
+1533614056752:cmin = -0,
+1533614056759:cmax = -100),
+1533614056767:dimensions = list(
+1533614056772:list(range = c(1,10),
+1533614056779:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533614056785:list(range = c(1,10),
+1533614056790:label = 'Price', values = ~Price),
+1533614056796:list(range = c(1,10),
+1533614056802:label = 'Service_Speed', values = ~Service_Speed),
+1533614056808:list(range = c(1,10),
+1533614056814:label = 'Eating_option', values = ~Eating_option)
+1533614056820:)
+1533614056825:)
+1533614056985:p
+1533614088249:# parcoords
+1533614088256:p <- mydata_mean %>%
+1533614088264:plot_ly(width = 1000, height = 600) %>%
+1533614088272:add_trace(type = 'parcoords',
+1533614088279:line = list(
+1533614088284:label=mydata_mean$Address,
+1533614088292:#hoverlabel=~Address,
+1533614088298:colorscale = 'Jet',
+1533614088303:showscale = TRUE,
+1533614088309:reversescale = TRUE,
+1533614088315:cmin = -0,
+1533614088321:cmax = -100),
+1533614088330:dimensions = list(
+1533614088336:list(range = c(1,10),
+1533614088341:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533614088348:list(range = c(1,10),
+1533614088353:label = 'Price', values = ~Price),
+1533614088359:list(range = c(1,10),
+1533614088364:label = 'Service_Speed', values = ~Service_Speed),
+1533614088371:list(range = c(1,10),
+1533614088376:label = 'Eating_option', values = ~Eating_option)
+1533614088382:)
+1533614088388:)
+1533614088982:p
+1533614720075:# parcoords
+1533614720083:p <- mydata_mean %>%
+1533614720091:plot_ly(width = 1000, height = 600) %>%
+1533614720097:add_trace(type = 'parcoords',
+1533614720103:line = list(color = mydata_mean$Address,
+1533614720111:label=mydata_mean$Address,
+1533614720116:#hoverlabel=~Address,
+1533614720122:colorscale = 'Jet',
+1533614720130:showscale = TRUE,
+1533614720135:reversescale = TRUE,
+1533614720140:cmin = -0,
+1533614720146:cmax = -100),
+1533614720156:dimensions = list(
+1533614720161:list(range = c(1,10),
+1533614720167:label = 'Taste_Quantity', values = ~Taste_Quantity),
+1533614720175:list(range = c(1,10),
+1533614720180:label = 'Price', values = ~Price),
+1533614720186:list(range = c(1,10),
+1533614720192:label = 'Service_Speed', values = ~Service_Speed),
+1533614720198:list(range = c(1,10),
+1533614720203:label = 'Eating_option', values = ~Eating_option)
+1533614720210:)
+1533614720215:)
+1533614720389:p
+1533615846213:ggplot(mydata_mean) +
+1533615846220:geom_line(aes(x = Trader, y = mydata_mean$Taste_Quantity, group = mydata_mean$Taste_Quantity, color = mydata_mean$Address))
+1533615852140:ggplot(mydata_mean) +
+1533615852146:geom_line(aes(x = mydata_mean$Address, y = mydata_mean$Taste_Quantity, group = mydata_mean$Taste_Quantity, color = mydata_mean$Address))
+1533615998614:ggplot(mydata_mean) +
+1533615998622:geom_line(aes(x = mydata_mean$Taste_Quantity,mydata_mean$Price,
+1533615998629:y = mydata_mean$Taste_Quantity, group = mydata_mean$Taste_Quantity,
+1533615998635:color = mydata_mean$Address))
+1533616005074:ggplot(mydata_mean) +
+1533616005081:geom_line(aes(x = (mydata_mean$Taste_Quantity,mydata_mean$Price),
+1533616005089:y = mydata_mean$Taste_Quantity, group = mydata_mean$Taste_Quantity,
+1533616005094:color = mydata_mean$Address))
+1533616058430:ggplot(mydata_mean) +
+1533616058437:geom_line(aes(x = (mydata_mean$Taste_Quantity),
+1533616058443:y = mydata_mean$Taste_Quantity, group = mydata_mean$Taste_Quantity,
+1533616058450:color = mydata_mean$Address))
+1533616173366:library(GGally)
+1533616194045:install.packages('GGally')
+1533617170318:library(GGally)
+1533617178226:ggparcoord(ds, columns=c(1, 5:10), groupColumn=11) +
+1533617178232:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617204357:ds <- diamonds[sample(nrow(diamonds), 5000),]
+1533617204824:parallelplot(~ds, group = cut, data = ds, horizontal.axis = FALSE,
+1533617204831:auto.key = TRUE)
+1533617210598:ds <- diamonds[sample(nrow(diamonds), 5000),]
+1533617213770:parallelplot(~ds, group = cut, data = ds, horizontal.axis = FALSE,
+1533617213777:auto.key = TRUE)
+1533617241868:ggparcoord(ds, columns=c(1, 5:10), groupColumn=11) +
+1533617241875:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617285757:ggparcoord(mydata_mean, columns=c(1, 2:5), groupColumn=1) +
+1533617285767:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617334252:help(ggparcoord)
+1533617373018:ggparcoord(mydata_mean, columns=c(2:5), groupColumn=1) +
+1533617373025:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617419641:ggparcoord(mydata_mean, columns=c(2:9), groupColumn=1) +
+1533617419650:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617439529:help(ggparcoord)
+1533617549326:library(GGally)
+1533617554362:r
+1533617557688:help(ggparcoord)
+1533617575404:ggparcoord(mydata_mean, columns=c(2:9), groupColumn=1, splineFactor=TRUE) +
+1533617575411:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617590843:help(ggparcoord)
+1533617631092:ggparcoord(mydata_mean,
+1533617631100:columns=c(2:9),
+1533617631108:groupColumn=1,
+1533617631117:splineFactor=TRUE,
+1533617631124:title="testing 1212"
+1533617631136:) +
+1533617631143:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617650967:help(ggparcoord)
+1533617720655:ggparcoord(mydata_mean,
+1533617720663:columns=c(2:9),
+1533617720671:groupColumn=1,
+1533617720676:splineFactor=TRUE,
+1533617720682:title="testing 1212",
+1533617720687:alphaLines = "alphaLevel",
+1533617720695:order = "anyClass",
+1533617720700:showPoints = TRUE
+1533617720706:) +
+1533617720713:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617736839:ggparcoord(mydata_mean,
+1533617736847:columns=c(2:9),
+1533617736853:groupColumn=1,
+1533617736860:splineFactor=TRUE,
+1533617736865:title="testing 1212",
+1533617736872:alphaLines = mydata_mean$Address,
+1533617736879:order = "anyClass",
+1533617736884:showPoints = TRUE
+1533617736889:) +
+1533617736895:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617752490:ggparcoord(mydata_mean,
+1533617752498:columns=c(2:9),
+1533617752504:groupColumn=1,
+1533617752511:splineFactor=TRUE,
+1533617752516:title="testing 1212",
+1533617752522:alphaLines = mydata_mean$Address,
+1533617752530:order = "anyClass",
+1533617752535:showPoints =TRUE
+1533617752541:) +
+1533617752547:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617759081:ggparcoord(mydata_mean,
+1533617759090:columns=c(2:9),
+1533617759098:groupColumn=1,
+1533617759107:splineFactor=TRUE,
+1533617759113:title="testing 1212",
+1533617759120:#alphaLines = mydata_mean$Address,
+1533617759126:order = "anyClass",
+1533617759132:showPoints =TRUE
+1533617759140:) +
+1533617759146:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617782061:help(ggparcoord)
+1533617833898:ggparcoord(mydata_mean,
+1533617833906:columns=c(2:9),
+1533617833915:groupColumn=1,
+1533617833921:splineFactor=TRUE,
+1533617833927:title="testing 1212",
+1533617833935:#alphaLines = mydata_mean$Address,
+1533617833940:order = "anyClass",
+1533617833947:scale ="center", scaleSummary = "median",
+1533617833953:showPoints =TRUE
+1533617833959:) +
+1533617833964:theme(panel.grid.major.x=element_line(colour="grey70"))
+1533617868831:help(ggparcoord)
+1533618291827:ggparcoord(mydata_mean,
+1533618291833:columns=c(2:9),
+1533618291840:groupColumn=1,
+1533618291846:splineFactor=TRUE,
+1533618291853:title="testing 1212",
+1533618291859:#alphaLines = mydata_mean$Address,
+1533618291864:order = "anyClass",
+1533618291871:scale ="center", scaleSummary = "median",
+1533618291876:showPoints =TRUE
+1533618291883:) +
+1533618291888:theme(panel.grid.major.x=element_line(colour="grey10"))
+1533619388395:ggparcoord(mydata_mean,
+1533619388401:columns=c(2:9),
+1533619388407:groupColumn=1,
+1533619388413:splineFactor=TRUE,
+1533619388418:title="",
+1533619388423:#alphaLines = mydata_mean$Address,
+1533619388429:order = "anyClass",
+1533619388435:scale ="center", scaleSummary = "median",
+1533619388440:showPoints =TRUE
+1533619388444:) +
+1533619388450:theme(panel.grid.major.x=element_line(colour="grey10"))
+1533619399286:help(ggparcoord)
+1533619402107:help(ggparcoord)
+1533619426465:ggparcoord(mydata_mean,
+1533619426472:columns=c(2:9),
+1533619426480:groupColumn=1,
+1533619426485:splineFactor=TRUE,
+1533619426491:title="",
+1533619426499:#alphaLines = mydata_mean$Address,
+1533619426504:order = "anyClass",
+1533619426510:scale ="centerObs", scaleSummary = "median",
+1533619426516:showPoints =TRUE
+1533619426523:) +
+1533619426528:theme(panel.grid.major.x=element_line(colour="grey10"))
+1533619435079:help(ggparcoord)
+1533619482802:ggparcoord(mydata_mean,
+1533619482810:columns=c(2:9),
+1533619482817:groupColumn=1,
+1533619482823:splineFactor=TRUE,
+1533619482831:title="",
+1533619482839:#alphaLines = mydata_mean$Address,
+1533619482845:order = "anyClass",
+1533619482850:scale ="std", scaleSummary = "median",
+1533619482856:showPoints =TRUE
+1533619482862:) +
+1533619482868:theme(panel.grid.major.x=element_line(colour="grey10"))
+1533619488179:help(ggparcoord)
+1533619515246:ggparcoord(mydata_mean,
+1533619515253:columns=c(2:9),
+1533619515262:groupColumn=1,
+1533619515267:splineFactor=TRUE,
+1533619515273:title="",
+1533619515281:#alphaLines = mydata_mean$Address,
+1533619515286:order = "anyClass",
+1533619515292:scale ="uniminmax", scaleSummary = "median",
+1533619515298:showPoints =TRUE
+1533619515304:) +
+1533619515309:theme(panel.grid.major.x=element_line(colour="grey10"))
+1533619539017:help(ggparcoord)
+1533619581675:ggparcoord(mydata_mean,
+1533619581682:columns=c(2:9),
+1533619581688:groupColumn=1,
+1533619581695:splineFactor=TRUE,
+1533619581700:title="",
+1533619581707:#alphaLines = mydata_mean$Address,
+1533619581713:order = "anyClass",
+1533619581719:scale ="uniminmax", scaleSummary = "median",
+1533619581724:showPoints =TRUE
+1533619581731:))
+1533619585514:ggparcoord(mydata_mean,
+1533619585523:columns=c(2:9),
+1533619585531:groupColumn=1,
+1533619585537:splineFactor=TRUE,
+1533619585542:title="",
+1533619585550:#alphaLines = mydata_mean$Address,
+1533619585555:order = "anyClass",
+1533619585560:scale ="uniminmax", scaleSummary = "median",
+1533619585566:showPoints =TRUE
+1533619585573:)
+1533619617333:help(ggparcoord)
+1533619925798:ggparcoord(mydata_mean,
+1533619925804:columns=c(2:9),
+1533619925810:groupColumn=1,
+1533619925816:splineFactor=TRUE,
+1533619925821:title="",
+1533619925826:#alphaLines = mydata_mean$Address,
+1533619925831:order = "anyClass",
+1533619925836:scale ="uniminmax", scaleSummary = "median",
+1533619925841:showPoints =TRUE,
+1533619925846:order = mydata_mean$Score
+1533619925851:)
+1533619934774:+theme(panel.grid.major.x=element_line(colour="grey10"))
+1533619947768:ggparcoord(mydata_mean,
+1533619947775:columns=c(2:9),
+1533619947782:groupColumn=1,
+1533619947788:splineFactor=TRUE,
+1533619947793:title="",
+1533619947800:#alphaLines = mydata_mean$Address,
+1533619947805:order = "anyClass",
+1533619947811:scale ="uniminmax", scaleSummary = "median",
+1533619947817:showPoints =TRUE
+1533619947823:)
+1533619959806:ggparcoord(mydata_mean,
+1533619959812:columns=c(2:9),
+1533619959818:groupColumn=1,
+1533619959823:splineFactor=TRUE,
+1533619959829:title="",
+1533619959833:#alphaLines = mydata_mean$Address,
+1533619959839:order = "anyClass",
+1533619959844:scale ="uniminmax", scaleSummary = "median",
+1533619959849:showPoints =TRUE,
+1533619959854:order = mydata_mean$Score
+1533619959863:)
+1533619975933:help(ggparcoord)
+1533620093308:ggparcoord(mydata_mean, columns = 2:9, groupColumn = NULL,
+1533620093316:scale = "std", scaleSummary = "mean", centerObsID = 1,
+1533620093325:missing = "exclude", order = columns, showPoints = FALSE,
+1533620093331:splineFactor = FALSE, alphaLines = 1, boxplot = FALSE,
+1533620093340:shadeBox = NULL, mapping = NULL, title = "")
+1533620134474:ggparcoord(mydata_mean, columns = 2:9, groupColumn = NULL,
+1533620134481:scale = "std", scaleSummary = "mean", centerObsID = 1,
+1533620134490:missing = "exclude", order = mydata_mean$Score, showPoints = FALSE,
+1533620134496:splineFactor = FALSE, alphaLines = 1, boxplot = FALSE,
+1533620134502:shadeBox = NULL, mapping = NULL, title = "")
+1533620175289:ggparcoord(mydata, columns = 2:9, groupColumn = NULL,
+1533620175296:scale = "std", scaleSummary = "mean", centerObsID = 1,
+1533620175301:missing = "exclude", order = mydata$Address, showPoints = FALSE,
+1533620175306:splineFactor = FALSE, alphaLines = 1, boxplot = FALSE,
+1533620175312:shadeBox = NULL, mapping = NULL, title = "")
+1533620189262:+theme(panel.grid.major.x=element_line(colour="grey10"))
+1533620193630:ggparcoord(mydata_mean,
+1533620193636:columns=c(2:9),
+1533620193642:groupColumn=1,
+1533620193647:splineFactor=TRUE,
+1533620193655:title="",
+1533620193660:#alphaLines = mydata_mean$Address,
+1533620193666:order = "anyClass",
+1533620193672:scale ="uniminmax", scaleSummary = "median",
+1533620193677:showPoints =TRUE
+1533620193687:)
